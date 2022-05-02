@@ -1,0 +1,42 @@
+Java IO
+
+
+ 
+===========Stream =============
+in 
+out
+err
+
+=============================
+
+program ----------output----------->console/network/ file  /database 
+
+
+program <-------input --------------console /network /file  /database 
+
+=======================================
+1) import java.io.*; 
+
+2) class  IOException    -checked 
+
+=============================
+4 Abstract classes 
+
+1)abstract  class InputStream            Byte  
+         FileInputStream 
+        ByteArrayInputStream
+        BuffereInputStream
+
+     
+2)OuptutStream          Byte
+3)Reader                    Char
+
+          FileReader
+          BuffereReader
+         CharacterArrayReader
+4)Writer                     Char
+ 
+         FileWriter
+
+
+text mode | binary (large)
